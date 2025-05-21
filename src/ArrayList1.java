@@ -1,27 +1,12 @@
 //Escribe un programa que pida 10 números por teclado y que luego muestre los
 //números introducidos junto con las palabras “máximo” y “mínimo” al lado del
 //máximo y del mínimo respectivamente.
-import java.util.Scanner;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class ArrayList1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        List<Integer> numeros = new ArrayList<>();
-
-        numeros.add(20);
-        numeros.add(12);
-        numeros.add(1);
-        numeros.add(55);
-        numeros.add(9);
-        numeros.add(34);
-        numeros.add(6);
-        numeros.add(3);
-        numeros.add(17);
-        numeros.add(5);
-
+        List<Integer> numeros = new ArrayList<>(Arrays.asList(20,12,1,55,9,34,6,3,17,5));
 
         //System.out.println("Introduce 10 números:");
 //        for (int i = 0; i < 10; i++) {
