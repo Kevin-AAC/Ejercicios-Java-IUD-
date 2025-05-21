@@ -11,13 +11,22 @@ public class ArrayList1 {
         Scanner scanner = new Scanner(System.in);
         List<Integer> numeros = new ArrayList<>();
 
-        System.out.println("Introduce 10 números:");
+        numeros.add(20);
+        numeros.add(12);
+        numeros.add(1);
+        numeros.add(55);
+        numeros.add(9);
+        numeros.add(34);
+        numeros.add(6);
+        numeros.add(3);
+        numeros.add(17);
 
-        for (int i = 0; i < 10; i++) {
-            System.out.print("Número " + (i + 1) + ": ");
-            int numero = scanner.nextInt();
-            numeros.add(numero);
-        }
+        //System.out.println("Introduce 10 números:");
+//        for (int i = 0; i < 10; i++) {
+//            System.out.print("Número " + (i + 1) + ": ");
+//            int numero = scanner.nextInt();
+//            numeros.add(numero);
+//        }
 
         int maximo = Collections.max(numeros);
         int minimo = Collections.min(numeros);
