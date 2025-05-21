@@ -22,7 +22,7 @@ public class ArrayList1 {
 //            int numero = scanner.nextInt();
 //            numeros.add(numero);
 //        }
-
+        Collections.sort(numeros);
         int maximo = Collections.max(numeros);
         int minimo = Collections.min(numeros);
 
