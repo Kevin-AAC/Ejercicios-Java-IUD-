@@ -9,6 +9,7 @@ public class ArrayList1 {
 
         ArrayList<Integer> numeros = new ArrayList<>();
         Random random = new Random();
+        numeros.add(0,87);
 
         // Generate 10 random numbers between 0 and 100
         for (int i = 0; i < 10; i++) {
