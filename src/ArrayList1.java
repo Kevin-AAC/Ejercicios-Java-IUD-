@@ -20,6 +20,8 @@ public class ArrayList1 {
         numeros.add(6);
         numeros.add(3);
         numeros.add(17);
+        numeros.add(5);
+
 
         //System.out.println("Introduce 10 números:");
 //        for (int i = 0; i < 10; i++) {
