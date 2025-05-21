@@ -6,7 +6,14 @@ import java.util.*;
 public class ArrayList1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        List<Integer> numeros = new ArrayList<>(Arrays.asList(20,12,1,55,9,34,6,3,17,5));
+
+        ArrayList<Integer> numeros = new ArrayList<>();
+        Random random = new Random();
+
+        // Generate 10 random numbers between 0 and 100
+        for (int i = 0; i < 10; i++) {
+            numeros.add(random.nextInt(101)); // 101 is exclusive upper bound
+        }
 
         //System.out.println("Introduce 10 números:");
 //        for (int i = 0; i < 10; i++) {
